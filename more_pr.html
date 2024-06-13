@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .styled-list {
+      list-style-type: upper-roman;
+      line-height: 20px;
+    }
+    /*This is when we will be looking for link when it is visited*/
+    a{
+      color:aliceblue;
+    }
+    a:visited{
+      color:brown;
+    }
+    a:hover, a:active{
+      color:beige;
+    }
+    figure{
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+
+  </style>
+  <body>
+    <h1>Hello World!</h1>
+    <!--Now, <h1>ghar baap ka hai kya</h1>, this whole thing is an ELEMENT whereas 
+    <h1> and </h1> are OPENING and CLOSING TAGS-->
+    <!--Horizontal rows: no closing tag-->
+    <hr />
+    <h2>First HTML tutorial</h2>
+    <p>
+      I am ready to learn HTML <br />...I wanna learn more about Web Dev
+      <br />...kya hi <br />...<strong>matlab samaj kya rakha hai</strong>we
+      have to learn and do well
+    </p>
+    <hr />
+    <h3>This is my first Webpage</h3>
+    <p>
+      I wanna learn HTML in detail and <em>hai ki nahi</em>I will do it as
+      basics are extremely important
+    </p>
+    <!--
+    img tag has source attribute and alt attribute automatically 
+    now src basically tells us the location from where we should grab the image from
+    and then alt says which text to display as an alternative if in case 
+    the image is not displayed -->
+    <img src="img/img.jpg" alt="error" title="i am learning html" width="300" height="200">
+    <!--You can make a copyright element using this-->
+    &lt;&lt;&lt;&copy;harsha &gt;&gt;&gt;
+    <!--We also learned about block level and inline elements, 
+    that is header and paragraph tags are block elements as it has to start from a new line
+    but tags like <strong> and <em> which are just used for formatting are inline
+      as they do not add new line around them
+      1. <address>
+      2. <abbr>: for dotted lines(formatting)
+    -->
+    
+    <ol class="styled-list">
+      <li>yes I can do it</li>
+      <li>so smooth</li>
+      <li>haha yayy</li>
+    </ol>
+    <h3>Let me tell you how we are gonna prepare:</h3>
+    <ol>
+      <li>We will be learning from lectures from <a target="_blank" href="https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/37349664#overview">ethnus</a></li>
+      <li>...along with youtube and that too the most basic lectures</li>
+      <li>
+        We should be focusing on udemy course as well so that we could get the
+        <a href="" target="_blank">certificate</a></li>
+      </li>
+      <li>
+        <p>I can and I will</p>
+        <figure>
+        <img src="img/img2.jpeg" width="300" height="200">
+        <figcaption>
+          motivational quote
+        </figcaption>
+      </figure>
+      </li>
+    </ol>
+    <figure>
+      <figcaption>heyy a</figcaption>
+      <p>
+        <code>&lt;h1 &gt; lol &lt;h1&gt;</code>
+        <!--if you want your image size to go small
+        you simply need to reduce the file size
+        you can do that by going to tinypng.com-->
+      </p>
+    </figure>
+  </body>
+</html>
